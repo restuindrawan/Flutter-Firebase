@@ -4,17 +4,10 @@ import 'package:flutter_firebase/app/routes/app_pages.dart';
 import 'package:get/get.dart';
 
 class AuthController extends GetxController {
-  //TODO: Implement AuthController
-
   FirebaseAuth auth = FirebaseAuth.instance;
-
-  // Stream<User?> streamAuthStatus() {
-  //   return auth.authStateChanges();
-  // }
 
   Stream<User?> get streamAuthStatus => auth.authStateChanges();
 
-  void signUp() {}
   void signUp(String email, String password) async {
     try {
       await auth.createUserWithEmailAndPassword(
@@ -73,7 +66,6 @@ class AuthController extends GetxController {
     }
   }
 
-  void logOut() {}
   void signOut() async {
     await FirebaseAuth.instance.signOut();
     Get.offAllNamed(Routes.LOGIN);

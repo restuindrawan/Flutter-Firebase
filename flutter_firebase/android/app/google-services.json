@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "181171370269",
+    "project_id": "myapp-6f380",
+    "storage_bucket": "myapp-6f380.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181171370269:android:f6aa43b001dafcda01c9f4",
+        "android_client_info": {
+          "package_name": "id.restuindrawan.flutter_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181171370269-9m5qs5v1cuskohkpjavg1766jhsv0tv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.restuindrawan.flutter_firebase",
+            "certificate_hash": "391d7397abcd024a52100f23eefbb308326a53ba"
+          }
+        },
+        {
+          "client_id": "181171370269-00ra5h8dmfea9nl69evfilinp3sj75qu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4bXtz88Gd3VWRSY08OlLfwT8niVLdnT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181171370269-00ra5h8dmfea9nl69evfilinp3sj75qu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
